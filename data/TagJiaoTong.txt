@@ -1,0 +1,8 @@
+type_amount=2
+type:tag=1
+type:park=2
+landmark_amount=0			
+
+
+id号（不一定连续）	landmark类型（1为tag，2为park）	坐标x	坐标y
+文件最前面的类型定义行一定不能含有空格

@@ -1,0 +1,602 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Apriltag/apriltag.h
+stdlib.h
+-
+common/matd.h
+../include/Apriltag/common/matd.h
+common/image_u8.h
+../include/Apriltag/common/image_u8.h
+common/zarray.h
+../include/Apriltag/common/zarray.h
+common/workerpool.h
+../include/Apriltag/common/workerpool.h
+common/timeprofile.h
+../include/Apriltag/common/timeprofile.h
+pthread.h
+-
+
+../include/Apriltag/apriltag_math.h
+math.h
+-
+
+../include/Apriltag/common/doubles_floats_impl.h
+stdio.h
+-
+math.h
+-
+string.h
+-
+float.h
+-
+matd.h
+../include/Apriltag/common/matd.h
+math_util.h
+../include/Apriltag/common/math_util.h
+
+../include/Apriltag/common/floats.h
+doubles_floats_impl.h
+../include/Apriltag/common/doubles_floats_impl.h
+
+../include/Apriltag/common/g2d.h
+common/zarray.h
+../include/Apriltag/common/common/zarray.h
+
+../include/Apriltag/common/homography.h
+matd.h
+../include/Apriltag/common/matd.h
+zarray.h
+../include/Apriltag/common/zarray.h
+
+../include/Apriltag/common/image_types.h
+stdint.h
+-
+
+../include/Apriltag/common/image_u8.h
+stdint.h
+-
+image_types.h
+../include/Apriltag/common/image_types.h
+
+../include/Apriltag/common/image_u8x3.h
+stdint.h
+-
+common/image_types.h
+../include/Apriltag/common/common/image_types.h
+
+../include/Apriltag/common/matd.h
+assert.h
+-
+stddef.h
+-
+string.h
+-
+
+../include/Apriltag/common/math_util.h
+math.h
+-
+float.h
+-
+stdlib.h
+-
+stdint.h
+-
+assert.h
+-
+string.h
+-
+
+../include/Apriltag/common/postscript_utils.h
+
+../include/Apriltag/common/time_util.h
+stdbool.h
+-
+stdint.h
+-
+sys/time.h
+-
+time.h
+-
+unistd.h
+-
+
+../include/Apriltag/common/timeprofile.h
+stdio.h
+-
+sys/time.h
+-
+string.h
+-
+stdint.h
+-
+time_util.h
+../include/Apriltag/common/time_util.h
+zarray.h
+../include/Apriltag/common/zarray.h
+
+../include/Apriltag/common/unionfind.h
+stdint.h
+-
+stdlib.h
+-
+
+../include/Apriltag/common/workerpool.h
+zarray.h
+../include/Apriltag/common/zarray.h
+
+../include/Apriltag/common/zarray.h
+stddef.h
+-
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+
+../include/Apriltag/common/zhash.h
+stdint.h
+-
+zarray.h
+../include/Apriltag/common/zarray.h
+
+../include/Apriltag/common/zmaxheap.h
+stdio.h
+-
+
+../include/Apriltag/g2d.h
+Apriltag/zarray.h
+../include/Apriltag/Apriltag/zarray.h
+
+../include/Apriltag/getopt.h
+zarray.h
+../include/Apriltag/zarray.h
+string_util.h
+../include/Apriltag/string_util.h
+
+../include/Apriltag/homography.h
+matd.h
+../include/Apriltag/matd.h
+zarray.h
+../include/Apriltag/zarray.h
+
+../include/Apriltag/image_f32.h
+stdint.h
+-
+image_u8.h
+../include/Apriltag/image_u8.h
+
+../include/Apriltag/image_u8.h
+stdint.h
+-
+image_f32.h
+../include/Apriltag/image_f32.h
+
+../include/Apriltag/image_u8x3.h
+stdint.h
+-
+
+../include/Apriltag/matd.h
+assert.h
+-
+stddef.h
+-
+string.h
+-
+
+../include/Apriltag/math_util.h
+math.h
+-
+float.h
+-
+stdlib.h
+-
+stdint.h
+-
+assert.h
+-
+string.h
+-
+
+../include/Apriltag/pnm.h
+stdint.h
+-
+
+../include/Apriltag/string_util.h
+stdarg.h
+-
+stdbool.h
+-
+ctype.h
+-
+zarray.h
+../include/Apriltag/zarray.h
+
+../include/Apriltag/svd22.h
+
+../include/Apriltag/time_util.h
+stdint.h
+-
+sys/time.h
+-
+time.h
+-
+unistd.h
+-
+
+../include/Apriltag/timeprofile.h
+stdio.h
+-
+sys/time.h
+-
+string.h
+-
+stdint.h
+-
+time_util.h
+../include/Apriltag/time_util.h
+zarray.h
+../include/Apriltag/zarray.h
+
+../include/Apriltag/unionfind.h
+stdint.h
+-
+stdlib.h
+-
+
+../include/Apriltag/workerpool.h
+zarray.h
+../include/Apriltag/zarray.h
+
+../include/Apriltag/zarray.h
+stddef.h
+-
+assert.h
+-
+stdlib.h
+-
+string.h
+-
+
+../include/Apriltag/zhash.h
+stdint.h
+-
+zarray.h
+../include/Apriltag/zarray.h
+
+../include/Apriltag/zmaxheap.h
+stdio.h
+-
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/apriltag.c
+apriltag.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/apriltag.h
+math.h
+-
+assert.h
+-
+stdint.h
+-
+string.h
+-
+stdio.h
+-
+inttypes.h
+-
+sys/time.h
+-
+common/image_u8.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/image_u8.h
+common/image_u8x3.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/image_u8x3.h
+common/zhash.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/zhash.h
+common/zarray.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/zarray.h
+common/matd.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/matd.h
+common/homography.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/homography.h
+common/timeprofile.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/timeprofile.h
+common/math_util.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/math_util.h
+common/g2d.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/g2d.h
+common/floats.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/floats.h
+apriltag_math.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/apriltag_math.h
+common/postscript_utils.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/postscript_utils.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/apriltag_quad_thresh.c
+math.h
+-
+assert.h
+-
+string.h
+-
+stdio.h
+-
+stdint.h
+-
+apriltag.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/apriltag.h
+common/image_u8x3.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/image_u8x3.h
+common/zarray.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/zarray.h
+common/zhash.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/zhash.h
+common/unionfind.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/unionfind.h
+common/timeprofile.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/timeprofile.h
+common/zmaxheap.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/zmaxheap.h
+common/postscript_utils.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/postscript_utils.h
+common/math_util.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/common/math_util.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/g2d.c
+assert.h
+-
+math.h
+-
+stdio.h
+-
+string.h
+-
+Apriltag/g2d.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/g2d.h
+Apriltag/math_util.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/math_util.h
+timeprofile.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/timeprofile.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/getopt.c
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+string.h
+-
+ctype.h
+-
+errno.h
+-
+Apriltag/zhash.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/zhash.h
+Apriltag/zarray.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/zarray.h
+Apriltag/getopt.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/getopt.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/homography.c
+math.h
+-
+stdio.h
+-
+Apriltag/matd.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/matd.h
+Apriltag/zarray.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/zarray.h
+Apriltag/homography.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/homography.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/image_f32.c
+stdio.h
+-
+stdint.h
+-
+stdlib.h
+-
+math.h
+-
+Apriltag/image_f32.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/image_f32.h
+Apriltag/math_util.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/math_util.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/image_u8.c
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+Apriltag/image_u8.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/image_u8.h
+Apriltag/pnm.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/pnm.h
+arm_neon.h
+-
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/image_u8x3.c
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+Apriltag/pnm.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/pnm.h
+Apriltag/image_u8x3.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/image_u8x3.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/matd.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdarg.h
+-
+assert.h
+-
+math.h
+-
+float.h
+-
+Apriltag/svd22.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/svd22.h
+Apriltag/matd.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/matd.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/pnm.c
+assert.h
+-
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+Apriltag/pnm.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/pnm.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/string_util.c
+assert.h
+-
+ctype.h
+-
+errno.h
+-
+string.h
+-
+stdarg.h
+-
+stdlib.h
+-
+stdio.h
+-
+Apriltag/string_util.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/string_util.h
+Apriltag/zarray.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/zarray.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/svd22.c
+math.h
+-
+string.h
+-
+assert.h
+-
+stdio.h
+-
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/tag16h5.c
+stdlib.h
+-
+apriltag.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/apriltag.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/tag36artoolkit.c
+stdlib.h
+-
+apriltag.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/apriltag.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/tag36h11.c
+stdlib.h
+-
+apriltag.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/apriltag.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/time_util.c
+stdlib.h
+-
+math.h
+-
+Apriltag/time_util.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/time_util.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/unionfind.c
+Apriltag/unionfind.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/unionfind.h
+stdlib.h
+-
+assert.h
+-
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/workerpool.c
+pthread.h
+-
+sched.h
+-
+assert.h
+-
+stdio.h
+-
+stdlib.h
+-
+inttypes.h
+-
+Apriltag/workerpool.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/workerpool.h
+Apriltag/timeprofile.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/timeprofile.h
+Apriltag/math_util.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/math_util.h
+Apriltag/string_util.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/string_util.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/zarray.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+Apriltag/zarray.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/zarray.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/zhash.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+assert.h
+-
+Apriltag/zhash.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/zhash.h
+
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/zmaxheap.c
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+math.h
+-
+assert.h
+-
+stdint.h
+-
+Apriltag/zmaxheap.h
+/home/ubuntu/桌面/0708/multi_0708 stable/src/Apriltag/Apriltag/zmaxheap.h
+

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libtag.a  CMakeFiles/tag.dir/tag.cpp.o CMakeFiles/tag.dir/taginfo.cpp.o CMakeFiles/tag.dir/kalman.cpp.o
+/usr/bin/ranlib ../../lib/libtag.a

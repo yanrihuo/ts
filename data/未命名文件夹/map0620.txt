@@ -1,0 +1,4 @@
+type_amount=2
+type:tag=1
+type:park=2
+landmark_amount=0

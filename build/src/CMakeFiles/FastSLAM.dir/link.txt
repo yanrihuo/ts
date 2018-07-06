@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libFastSLAM.a  CMakeFiles/FastSLAM.dir/fastslam/fastslam_core.cpp.o CMakeFiles/FastSLAM.dir/fastslam/utils.cpp.o
+/usr/bin/ranlib ../../lib/libFastSLAM.a

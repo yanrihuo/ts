@@ -1,0 +1,40 @@
+# camera
+camera_fx=1787.3946;
+camera_fy=1796.6421;
+camera_cx=964.41524;
+camera_cy=553.5162;
+camera_distort1=-0.19337
+camera_distort2=0.20066
+camera_distort3=0.00285
+camera_distort4=0.0
+
+# image
+image_width=1920
+image_height=1080
+
+# tag
+tag_path=/Users/Yewei/ClionProjects/multi_0517/data/map0601.txt
+tag_size=0.488
+goodTag_distThreshold=15.0
+
+# offline(0) or online(1)
+online=0
+
+# EKF_Param_path
+ekf_param_path=/Users/Yewei/ClionProjects/multi_0517/data/TagJiaoTong.ini
+
+# mapping(MAP), localization(LOC)
+mapping_or_localization=MAP
+
+# offlineDatasetDir, do not forget /
+tag_dataset=/Users/Yewei/Desktop/experiments/data-2017-03-29/shuangmu/
+tag_reckon=/Users/Yewei/Desktop/experiments/data-2017-03-29/shuangmu/reckonTestfile.txt
+park_detect=/Users/Yewei/Desktop/experiments/data-2017-03-29/huanshi/detect.txt
+park_reckon=/Users/Yewei/Desktop/experiments/data-2017-03-29/huanshi/reckonTestfile.txt
+
+# save(1) or not save(0)
+saveOnlineData=0
+
+map_result_path=/Users/Yewei/Desktop/experiments/data-2017-03-29/newmap.txt
+
+#任何=前后都不能有空格，否则将无法识别

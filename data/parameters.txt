@@ -1,0 +1,35 @@
+# camera
+camera_fx=1100.8;
+camera_fy=1105.3
+camera_cx=662.2400;
+camera_cy=505.6058
+camera_distort1=-0.1727
+camera_distort2=0.1784
+camera_distort3=0.0
+camera_distort4=0.0
+
+# image
+image_width=1280
+image_height=1024
+
+# tag
+tag_path=../data/online07085day_20.txt
+tag_size=0.488
+goodTag_distThreshold=30
+
+# offline(0) or online(1)
+online=1
+
+# EKF_Param_path
+ekf_param_path=../data/TagJiaoTong(ori)(0708).ini
+
+# mapping(MAP), localization(LOC)
+mapping_or_localization=LOC
+
+# offlineDatasetDir, do not forget /
+
+
+# save(1) or not save(0)
+saveOnlineData=0
+
+map_result_path=../data/online0708.txt
